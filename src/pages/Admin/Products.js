@@ -47,7 +47,7 @@ const Products = () => {
                   <div className="row g-0">
                     <div className="col-md-4 d-flex align-items-center justify-content-center">
                       <img
-                        src={`https://ecom-backend-gk0w.onrender.com/yapi/v1/product/product-photo/${p._id}`}
+                        src={`https://ecom-backend-gk0w.onrender.com/api/v1/product/product-photo/${p._id}`}
                         className="img-fluid rounded-start"
                         alt={p.name}
                         style={{ height: '200px' }}

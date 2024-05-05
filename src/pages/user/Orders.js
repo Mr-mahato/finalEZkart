@@ -116,7 +116,7 @@ const Orders = () => {
                         <div className="row mb-2 p-3 card flex-row">
                           <div className="col-md-4">
                             <img
-                              src={`/api/v1/product/product-photo/${item.product._id}`}
+                              src={`https://ecom-backend-gk0w.onrender.com/api/v1/product/product-photo/${item.product._id}`}
                               className="card-img-top"
                               alt={item.product.name}
                               width="100px"
